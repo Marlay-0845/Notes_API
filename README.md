@@ -34,27 +34,6 @@ Pydantic
 
 Uvicorn
 
-# Project Structure
-Notes_API/
-│
-├── app/
-│   ├── main.py              # FastAPI app entry point
-│   └── database.py          # Database engine & session
-│
-├── models/
-│   └── task.py              # SQLAlchemy Task model
-│
-├── schemas/
-│   └── task.py              # Pydantic schemas
-│
-├── routers/
-│   └── notes.py             # API routes
-│
-├── storage/
-│   └── tasks.db             # SQLite database
-│
-└── README.md
-
 # Data Model
 Task
 Field	Type	Description
