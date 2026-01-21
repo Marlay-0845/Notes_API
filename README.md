@@ -34,15 +34,6 @@ Pydantic
 
 Uvicorn
 
-# Data Model
-Task 
-Field	Type	Description 
-id	int	Primary key 
-title	str	Note title 
-description	str	Optional note description 
-done	bool	Completion status 
-created_at	datetime	Creation timestamp (UTC) 
-# API Endpoints
 Create a note
 
 POST /notes/
