@@ -34,36 +34,6 @@ Pydantic
 
 Uvicorn
 
-Create a note
-
-POST /notes/
-
-{
-  "title": "My first note",
-  "description": "Some text"
-}
-
-Get all notes
-
-GET /notes/
-
-Get note by ID
-
-GET /notes/{id}
-
-Update a note (partial)
-
-PATCH /notes/{id}
-
-{
-  "title": "Updated title",
-  "done": true
-}
-
-Delete a note
-
-DELETE /notes/{id}
-
 # Getting Started
 1. Clone the repository
 git clone https://github.com/your-username/notes-api.git
